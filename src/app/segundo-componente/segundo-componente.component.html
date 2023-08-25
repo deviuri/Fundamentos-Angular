@@ -1,0 +1,10 @@
+<img [src]="urlImg">
+<p>Nome:  {{ nome | uppercase }}</p>
+<p>Data de Nascimento: {{ dataNascimento | date: "dd/MM/yyyy" }}</p>
+
+<button (click)="mostrardata()" type="button"
+style="background-color: rgb(0, 72, 155);
+  margin: 10px 0; border: none; border-radius: 4px;
+  display: block; color: white;
+  font-weight: bold; transition: filter .3 ease-in-out;
+  padding: 10px;">Mostrar data</button>
